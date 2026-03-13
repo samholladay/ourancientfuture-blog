@@ -1,0 +1,49 @@
+{
+  "site_url": "https://ourancientfuture.com",
+  "substack_url": "https://ourancientfuture.substack.com",
+  "blog_title": "Our Ancient Future",
+  "blog_description": "How the future returns to the premodern past",
+  "hero_title": "Welcome to Our Ancient Future",
+  "hero_subtitle": "How the future returns to the premodern past",
+  "author": {
+    "name": "Samuel R. Holladay",
+    "tagline": "Writer, Thinker, Creator",
+    "photo": "media/author/main_headshot.JPG",
+    "bio": [
+      "Samuel R. Holladay is an electrical engineer, writer, and filmmaker based in San Francisco. With a master's degree in electrical engineering from UC Berkeley, he specializes in integration of hardware and software in complex sensor systems."
+    ],
+    "about_blog": [
+      "Our Ancient Future is a project based around a premise of neoarchaism: that modernity ended decades ago, and the strange world we see emerging bears more resemblance to the premodern world it replaced.",
+      "The lessons of the recent past, then, are little help to us. The future will be exciting and strangely ancient, requiring us to pull on distant sources we have long dismissed as irrelevant",
+      "I study this premise from technical, political, and cultural lenses. I don't believe in specialization: I use my background as an engineer, filmmaker, and historian to inform high-level narratives."
+    ],
+    "social": {
+      "twitter": "https://twitter.com/CrashAndYearn",
+      "email": "mailto:samuelrholladay@gmail.com"
+    }
+  },
+  "category_keywords": {
+    "tech": [
+      "technology",
+      "software",
+      "AI",
+      "pop-psych"
+    ],
+    "culture": [
+      "media",
+      "travel",
+      "film",
+      "literature"
+    ],
+    "politics": [
+      "history",
+      "politics"
+    ]
+  },
+  "gallery_photos": [
+    {
+      "path": "media/gallery/delvaux2.jpeg",
+      "caption": "Landscape with Lanterns (1958)"
+    }
+  ]
+}

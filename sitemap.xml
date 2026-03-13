@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ourancientfuture.com/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/so-you-want-to-work-in-hardware.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/so-you-want-to-work-in-hardware_5b79aada.webp</image:loc>
+      <image:title>So You Want to Work in Hardware</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/superintelligence-superweapons-and.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/superintelligence-superweapons-and_4ed39831.webp</image:loc>
+      <image:title>Superintelligence, superweapons, and Lt. Col. Petrov</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/its-not-just-ai-writing-its-bogged.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/its-not-just-ai-writing-its-bogged_8be2b33b.webp</image:loc>
+      <image:title>It's not just AI writing--it's bogged writing</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/the-napoleonic-guide-to-youthful.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/the-napoleonic-guide-to-youthful_a39ae7d6.jpeg</image:loc>
+      <image:title>The Napoleonic guide to youthful achievement</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/napoleon-and-the-missing-great-men.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/napoleon-and-the-missing-great-men_6410162b.jpeg</image:loc>
+      <image:title>Napoleon and the missing Great Men</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/against-mass-nomadism.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/against-mass-nomadism_eb56292f.jpeg</image:loc>
+      <image:title>Against mass nomadism</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/the-lizard-brain-the-monkey-brain.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/the-lizard-brain-the-monkey-brain_db92b37a.jpeg</image:loc>
+      <image:title>The lizard brain, the monkey brain, and the human brain</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ourancientfuture.com/articles/our-ancient-future-the-world-hot.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ourancientfuture.com/media/articles/our-ancient-future-the-world-hot_b98785dd.jpeg</image:loc>
+      <image:title>Our Ancient Future: the world, hot and cool</image:title>
+    </image:image>
+  </url>
+</urlset>

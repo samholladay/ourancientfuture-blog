@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>About - My Blog</title>
+    <meta name="title" content="About - My Blog">
+    <meta name="description" content="Learn more about the author and the story behind My Blog.">
+    <meta name="keywords" content="about, author, blog">
+    <meta name="author" content="My Blog">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://myblog.com/about.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myblog.com/about.html">
+    <meta property="og:title" content="About - My Blog">
+    <meta property="og:description" content="Learn more about the author and the story behind My Blog.">
+    <meta property="og:image" content="https://myblog.com/media/og-image.jpg">
+    <meta property="og:site_name" content="My Blog">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://myblog.com/about.html">
+    <meta name="twitter:title" content="About - My Blog">
+    <meta name="twitter:description" content="Learn more about the author and the story behind My Blog.">
+    <meta name="twitter:image" content="https://myblog.com/media/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ff6719">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About",
+      "description": "Learn more about the author and the story behind My Blog",
+      "url": "https://myblog.com/about.html"
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" id="siteLogo">My Blog</a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Articles</a>
+                    <a href="about.html" class="nav-link active">About</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-page">
+        <div class="about-container">
+            <!-- About Header -->
+            <header class="about-header">
+                <h1 class="about-title" id="aboutTitle">About Me</h1>
+            </header>
+
+            <!-- Author Section -->
+            <section class="author-section">
+                <div class="author-photo-container">
+                    <img src="media/author.jpg" alt="Author photo" class="author-photo" id="authorPhoto">
+                </div>
+                <div class="author-info">
+                    <h2 class="author-name" id="authorName">Author Name</h2>
+                    <p class="author-tagline" id="authorTagline">Writer, Thinker, Creator</p>
+                    
+                    <div class="author-bio" id="authorBio">
+                        <p>Welcome to my blog! I write about technology, literature, and film.</p>
+                        <p>This is where you can share your story, background, and what drives your writing.</p>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links" id="socialLinks">
+                        <!-- Will be populated from config -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Blog Section -->
+            <section class="about-blog-section">
+                <h2>About This Blog</h2>
+                <div class="about-blog-content" id="aboutBlogContent">
+                    <p>This blog features articles on technology, literature, and film. Each piece is crafted to provide thoughtful analysis and unique perspectives.</p>
+                </div>
+            </section>
+
+            <!-- Topics Section -->
+            <section class="topics-section">
+                <h2>What I Write About</h2>
+                <div class="topics-grid">
+                    <div class="topic-card">
+                        <h3>Technology</h3>
+                        <p>Exploring the latest in software, AI, and digital innovation.</p>
+                    </div>
+                    <div class="topic-card">
+                        <h3>Literature</h3>
+                        <p>Book reviews, literary analysis, and thoughts on writing.</p>
+                    </div>
+                    <div class="topic-card">
+                        <h3>Film</h3>
+                        <p>Movie reviews, cinematography, and the art of storytelling.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <h2>Start Reading</h2>
+                <p>Explore my latest articles and join the conversation.</p>
+                <a href="index.html" class="btn-primary">View All Articles</a>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 <span id="footerName">My Blog</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/about.js"></script>
+</body>
+</html>

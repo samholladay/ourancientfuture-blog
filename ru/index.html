@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Our Ancient Future - Thoughts on Technology, Literature, and Film</title>
+    <meta name="title" content="Our Ancient Future - Thoughts on Technology, Literature, and Film">
+    <meta name="description" content="A personal blog featuring articles on technology, culture, and politics. Explore in-depth analysis, reviews, and thoughtful commentary.">
+    <meta name="keywords" content="blog, technology, culture, politics, AI, media, travel, film, literature, writing, articles, commentary">
+    <meta name="author" content="Samuel R. Holladay">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ourancientfuture.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ourancientfuture.com/">
+    <meta property="og:title" content="Our Ancient Future - Thoughts on Technology, Literature, and Film">
+    <meta property="og:description" content="A personal blog featuring articles on technology, culture, and politics. Explore in-depth analysis, reviews, and thoughtful commentary.">
+    <meta property="og:image" content="https://ourancientfuture.com/media/og-image.jpg">
+    <meta property="og:site_name" content="Our Ancient Future">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ourancientfuture.com/">
+    <meta name="twitter:title" content="Our Ancient Future - Thoughts on Technology, Literature, and Film">
+    <meta name="twitter:description" content="A personal blog featuring articles on technology, culture, and politics. Explore in-depth analysis, reviews, and thoughtful commentary.">
+    <meta name="twitter:image" content="https://ourancientfuture.com/media/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="manifest" href="../site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ff6719">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Our Ancient Future",
+      "description": "A personal blog featuring articles on technology, culture, and politics",
+      "url": "https://ourancientfuture.com",
+      "author": {
+        "@type": "Person",
+        "name": "Samuel R. Holladay"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Samuel R. Holladay"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">My Blog</h1>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Articles</a>
+                    <a href="../about.html" class="nav-link">About</a>
+                    <span class="nav-separator">|</span>
+                    <div class="language-selector">
+                        <button class="language-button" id="langButton">🌐 EN</button>
+                        <div class="language-dropdown" id="langDropdown">
+                            <a href="/index.html" class="lang-option">🇬🇧 English</a>
+                            <a href="/es/index.html" class="lang-option">🇪🇸 Español</a>
+                            <a href="/ru/index.html" class="lang-option">🇷🇺 Русский</a>
+                            <a href="/de/index.html" class="lang-option">🇩🇪 Deutsch</a>
+                            <a href="/fr/index.html" class="lang-option">🇫🇷 Français</a>
+                            <a href="/cn/index.html" class="lang-option">🇨🇳 中文</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section with Photo Gallery -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Welcome to My Blog</h2>
+                    <p class="hero-subtitle">Thoughts on technology, literature, and film</p>
+                </div>
+                <div class="photo-gallery" id="photoGallery">
+                    <!-- Photos will be loaded dynamically -->
+                    <div class="gallery-placeholder">
+                        <p>Add your photos to media/gallery/ and update config.json</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles Section with Sidebar -->
+        <section class="articles">
+            <div class="container">
+                <div class="blog-layout">
+                    <!-- Sidebar -->
+                    <aside class="sidebar">
+                        <!-- RSS Feed -->
+                        <div class="sidebar-section">
+                            <h3 class="sidebar-title">Subscribe</h3>
+                            <a href="feed.xml" class="rss-button" target="_blank">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                    <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+                                </svg>
+                                RSS Feed
+                            </a>
+                        </div>
+
+                        <!-- Archives -->
+                        <div class="sidebar-section">
+                            <h3 class="sidebar-title">Archives</h3>
+                            <div class="archives-list" id="archivesList">
+                                <div class="loading-small">Loading...</div>
+                            </div>
+                        </div>
+
+                        <!-- Categories -->
+                        <div class="sidebar-section">
+                            <h3 class="sidebar-title">Categories</h3>
+                            <div class="categories-list">
+                                <a href="#" class="category-link" data-category="all">All Posts</a>
+                                <a href="#" class="category-link" data-category="tech">Tech</a>
+                                <a href="#" class="category-link" data-category="culture">Culture</a>
+                                <a href="#" class="category-link" data-category="politics">Politics</a>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- Main Content -->
+                    <div class="main-content">
+                        <div class="articles-header">
+                            <h2 class="section-title">Latest Posts</h2>
+                        </div>
+                        <div class="articles-list" id="articlesGrid">
+                            <!-- Articles will be loaded dynamically -->
+                            <div class="loading">Loading articles...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>

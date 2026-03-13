@@ -1,0 +1,3 @@
+Contact: https://myblog.com
+Preferred-Languages: en
+Canonical: https://myblog.com/.well-known/security.txt

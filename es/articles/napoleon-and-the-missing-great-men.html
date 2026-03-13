@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags (will be populated dynamically) -->
+    <title id="articleTitle">Article - My Blog</title>
+    <meta name="title" content="Article - My Blog" id="metaTitle">
+    <meta name="description" content="Read this article on My Blog" id="metaDescription">
+    <meta name="keywords" content="blog, article" id="metaKeywords">
+    <meta name="author" content="My Blog">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL (will be populated dynamically) -->
+    <link rel="canonical" href="https://myblog.com/" id="canonicalUrl">
+    
+    <!-- Open Graph / Facebook (will be populated dynamically) -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://myblog.com/" id="ogUrl">
+    <meta property="og:title" content="Article - My Blog" id="ogTitle">
+    <meta property="og:description" content="Read this article on My Blog" id="ogDescription">
+    <meta property="og:image" content="https://myblog.com/media/og-image.jpg" id="ogImage">
+    <meta property="og:site_name" content="My Blog">
+    <meta property="article:published_time" content="" id="articlePublished">
+    <meta property="article:author" content="My Blog">
+    
+    <!-- Twitter Card (will be populated dynamically) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://myblog.com/" id="twitterUrl">
+    <meta name="twitter:title" content="Article - My Blog" id="twitterTitle">
+    <meta name="twitter:description" content="Read this article on My Blog" id="twitterDescription">
+    <meta name="twitter:image" content="https://myblog.com/media/og-image.jpg" id="twitterImage">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+    <link rel="manifest" href="../../site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ff6719">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/article.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="../../index.html" class="logo">My Blog</a>
+                <nav class="nav">
+                    <a href="../../index.html" class="nav-link">Articles</a>
+                    <a href="../../about.html" class="nav-link">About</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <article class="article-page">
+        <div class="article-container">
+            <!-- Article Header -->
+            <header class="article-header">
+                <div class="article-meta">
+                    <span class="article-category" id="articleCategory"></span>
+                    <span class="article-date" id="articleDate"></span>
+                </div>
+                <h1 class="article-title" id="articleTitleMain"></h1>
+                <p class="article-subtitle" id="articleSubtitle"></p>
+            </header>
+
+            <!-- Article Cover Image -->
+            <div class="article-cover" id="articleCover">
+                <!-- Cover image will be loaded dynamically -->
+            </div>
+
+            <!-- Article Content -->
+            <div class="article-content" id="articleContent">
+                <div class="loading">Loading article...</div>
+            </div>
+
+            <!-- Related Posts -->
+            <aside class="related-posts" id="relatedPosts">
+                <!-- Related posts will be loaded dynamically -->
+            </aside>
+
+            <!-- Article Footer -->
+            <footer class="article-footer">
+                <div class="article-tags" id="articleTags"></div>
+                <div class="article-actions">
+                    <a href="../../index.html" class="btn-secondary">← Back to All Articles</a>
+                </div>
+            </footer>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../../scripts/article.js"></script>
+</body>
+</html>

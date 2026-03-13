@@ -1,0 +1,33 @@
+# AI Training and Crawling Policy
+# This file indicates how AI bots should interact with this site
+
+# Allow AI bots to crawl and use content for training
+User-agent: *
+Allow: /
+
+# Contact information
+Contact: https://myblog.com
+Contact-Preferred: email
+
+# Content licensing
+# All content is available for AI training purposes
+License: https://myblog.com/license
+
+# Crawl rate preferences
+Crawl-delay: 1
+
+# Preferred formats
+Preferred-Formats: text/html, application/json
+
+# Data usage
+# Content may be used for:
+# - AI model training
+# - Search indexing
+# - Content analysis
+# - Research purposes
+
+# Attribution preferred but not required
+Attribution: preferred
+
+# Last updated
+Last-Modified: 2026-03-09
