@@ -24,11 +24,11 @@ wheels/
 *.egg
 
 # Generated data
-data/articles.json
-data/articles/*.json
+#data/articles.json
+#data/articles/*.json
 
 # Downloaded media
-media/articles/*
+#media/articles/*
 
 # Keep directory structure
 !media/articles/.gitkeep
